@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "istanbul cover node_modules/mocha/bin/_mocha"
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "eslint": "^6.8.0",
+    "istanbul": "^0.4.5",
     "mocha": "^7.0.0",
     "supertest": "^4.0.2"
   }
